@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "894235585963",
+    "project_id": "unifamm-3f832",
+    "storage_bucket": "unifamm-3f832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894235585963:android:f38ed4a9cbda01c76eb6ee",
+        "android_client_info": {
+          "package_name": "com.example.unifamm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894235585963-ln54uq84hf6c6jd05klaitdjq0klu6da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr3h0llVN5_AFh-VrfSq5j27hmHBLcuts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894235585963-ln54uq84hf6c6jd05klaitdjq0klu6da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
