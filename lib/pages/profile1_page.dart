@@ -17,7 +17,8 @@ class _AccountScreenState extends State<AccountScreen> {
 
     await FirebaseAuth.instance.signOut();
 
-    navigator.pushNamedAndRemoveUntil('/home', (Route<dynamic> route) => false);
+    navigator.pushNamedAndRemoveUntil(
+        '/login', (Route<dynamic> route) => false);
   }
 
   @override
@@ -59,7 +60,7 @@ class _AccountScreenState extends State<AccountScreen> {
           SizedBox(
             width: 67,
             child: Padding(
-              padding: const EdgeInsets.all(6.0),
+              padding: const EdgeInsets.all(4.0),
               child: Row(
                 children: [
                   Text(
@@ -72,9 +73,9 @@ class _AccountScreenState extends State<AccountScreen> {
             ),
           ),
           SizedBox(
-            width: 187,
+            width: 160,
             child: Padding(
-              padding: const EdgeInsets.all(2.0),
+              padding: const EdgeInsets.all(4.0),
               child: Row(
                 children: [
                   Text(
